@@ -1,0 +1,23 @@
+# Desktop Controller Dependencies
+
+# Groq API
+groq>=0.4.0
+requests>=2.31.0
+
+# Computer Vision & Screenshots
+Pillow>=10.0.0
+
+# Desktop Automation
+PyAutoGUI>=0.9.54
+pygetwindow>=0.0.9
+pymsgbox>=1.0.9
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Optional: Web UI (falls aktiviert)
+flask>=3.0.0
+flask-socketio>=5.3.0
+
+# Utilities
+python-dateutil>=2.8.2
