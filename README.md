@@ -63,7 +63,25 @@ export GROQ_API_KEY="dein_groq_api_key_hier"
 
 ## 📖 Verwendung
 
-### Einzelne Aufgabe ausführen
+### 🚀 Schnellstart mit GUI / Launcher
+
+#### Windows
+Doppelklick auf `start.bat` oder `launcher.pyw` für die graphische Oberfläche:
+- `start.bat` - Interaktives Menü im Terminal
+- `launcher.pyw` - Moderne GUI mit tkinter
+
+#### Linux / macOS
+```bash
+./start.sh
+```
+oder starte die GUI direkt:
+```bash
+python3 launcher.pyw
+```
+
+### Manuelle Verwendung via Kommandozeile
+
+#### Einzelne Aufgabe ausführen
 
 ```bash
 python main.py --task "Öffne Firefox und suche nach Groq AI"
@@ -96,6 +114,21 @@ python main.py --test
 ```bash
 python main.py --verbose --task "Meine Aufgabe"
 ```
+
+## 🖥️ GUI Launcher Features
+
+Der grafische Launcher (`launcher.pyw`) bietet:
+
+- **Mehrere Modi**: Interaktiv, Einzelaufgabe oder Test-Modus
+- **Live-Output**: Zeigt alle Logs und Ausgaben in Echtzeit
+- **Einfache Bedienung**: Start/Stop Buttons und klare Status-Anzeige
+- **Automatische Prüfung**: Validiert Konfiguration beim Start
+- **Plattformübergreifend**: Funktioniert auf Windows, Linux und macOS
+
+**Start-Skripte:**
+- `start.bat` (Windows) - Terminal-Menü mit automatischer venv-Verwaltung
+- `start.sh` (Linux/Mac) - Bash-Menü mit automatischer venv-Verwaltung
+- `launcher.pyw` - Grafische Oberfläche (alle Plattformen)
 
 ## 🏗️ Architektur
 
